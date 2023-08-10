@@ -16,6 +16,9 @@ var LayoutHeaderView = View.extend({
     events: {
         'click .g-app-title': function () {
             router.navigate('', { trigger: true });
+        },
+        'click .g-frontpage-logo': function () {
+            router.navigate('', { trigger: true });
         }
     },
 
